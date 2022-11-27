@@ -19,6 +19,7 @@ This repository performs ***Human Activity Recognition***, where given a video, 
   - A total of 300,000 videos
 - The full list of classes the model can recognize can be seen [***here***](https://github.com/fork123aniket/Human-Activity-Recognition/blob/main/Class_Labels/action_recognition_kinetics.txt).
 ### Training and Testing
+- The pre-Trained weights of the 3D convolutional ResNet-34 model, trained on the ***Kinetics dataset***, can be downloaded from [***here***](https://github.com/shuvamdas/human-activity-recognition/blob/master/resnet-34_kinetics.onnx).
 - To see the implementation of ***Human Activity Recognition*** without ***rolling prediction***, check `Human_Activity_Recognition.py`. Moreover, to test this implementation on a test video, run the following command:-
 `python Human_Activity_Recognition.py --model resnet-34_kinetics.onnx --classes Class_Labels/action_recognition_kinetics.txt --input example_activities.mp4`
 - To see the implementation of ***Human Activity Recognition*** with ***rolling prediction***, check `Human_Activity_Recognition_Deque.py`. Besides, run the following command to check the performance of this implementation:-
