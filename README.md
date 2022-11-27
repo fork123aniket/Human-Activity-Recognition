@@ -17,6 +17,7 @@ This repository performs ***Human Activity Recognition***, where given a video, 
   - 400 ***human activity recognition*** classes
   - At least 400 video clips per class (downloaded via YouTube)
   - A total of 300,000 videos
+- The full list of classes the model can recognize can be seen [***here***](https://github.com/opencv/opencv/blob/master/samples/data/dnn/action_recongnition_kinetics.txt).
 ### Training and Testing
 - To see the implementation of ***Human Activity Recognition*** without ***rolling prediction***, check `Human_Activity_Recognition.py`. Moreover, to test this implementation on a test video, run the following command:-
 `python Human_Activity_Recognition.py --model resnet-34_kinetics.onnx --classes action_recognition_kinetics.txt --input example_activities.mp4`
